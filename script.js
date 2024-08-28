@@ -5,5 +5,5 @@ setInterval(() => {
     const second = String(time.getSeconds()).padStart(2, '0')
     const clock = hour + ':' + minute + ':' + second
 
-    document.querySelector('.h1').textContent = clock
+    document.querySelector('.board.).textContent = clock
 }, 1000)
